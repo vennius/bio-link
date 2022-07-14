@@ -25,7 +25,7 @@ export default function Description({text}){
         </div>
         
         <div className={styles.containerContent}>
-        Databases I&pos;m using: <b>MySQL, MongoDB</b>📂
+        Databases Im using: <b>MySQL, MongoDB</b>📂
         </div>
         
       </div>
