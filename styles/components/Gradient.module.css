@@ -1,0 +1,35 @@
+@keyframes gradient{
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+.wrapper{
+  max-height: 300px;
+  max-width: 300px;
+  top: 200px;
+  opacity: 65%;
+  animation: gradient infinite linear 8s;
+  position: fixed;
+  left: 60px;
+  z-index: -9999;
+}
+
+/*@media only screen and (min-width: 390px){
+   .wrapper{
+   }
+ }*/
+ 
+ @media only screen and (min-width: 724px){
+   .wrapper{
+     position: fixed;
+     left: 350px;
+     top: 150px;
+     max-width: 500px;
+     max-height: 500px;
+   }
+   .gradient{
+     width: 400px;
+     height: 400px;
+   }
+ }
