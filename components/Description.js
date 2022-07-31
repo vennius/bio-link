@@ -23,7 +23,6 @@ export default function Description({text}){
     
   }
   
-  console.log(getBirthdayCountdown(26, 8-1));
   
   const date = getBirthdayCountdown(26, 8-1);
   
@@ -37,11 +36,11 @@ export default function Description({text}){
         </div>
         
         <div className={styles.containerContent}>
-        I'm from <b>Indonesia</b>🇮🇩
+       I&apos;m from <b>Indonesia</b>🇮🇩
         </div>
         
         <div className={styles.containerContent}>
-        I'm <b>X</b> years old ✌️
+        I&apos;m <b>X</b> years old ✌️
         </div>
         
         <div className={styles.containerContent}>
