@@ -21,7 +21,6 @@
   width: 60vw;
   padding: 20px;
   text-align: center;
-  letter-spacing: .5px;
   margin: 20px 0;
   font-size: .7em;
   transition: .3s;
@@ -33,6 +32,13 @@
 
 .containerContent{
   margin: 5px 0;
+}
+
+.birthdayWrapper{
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0;
+  font-size: 15px;
 }
 
 @media only screen and (min-width: 724px){
